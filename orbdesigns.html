@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Page Title</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #3498db; /* Set your desired background color for the bar */
+      width: 100%;
+      padding: 10px;
+      color: #fff; /* Set your desired text color */
+    }
+
+    .header-buttons {
+      display: flex;
+      align-items: center;
+    }
+
+    .header-buttons button {
+      margin-left: 10px;
+      background-color: transparent;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+    }
+
+    .header-buttons button:hover {
+      background-color: #fff;
+      color: #3498db;
+    }
+  </style>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>OrbDesigns</h1>
+    <div class="header-buttons">
+      <button>About Us</button>
+      <button>Contact Us</button>
+      <button>Projects</button>
+    </div>
+  </div>
+
+  <div id="about-us-section">
+    <h2>About Us</h2>
+    <p id="about-us-content"></p>
+    <button id="load-content-button">Load Content</button>
+  </div>
+</body>
+</html>
